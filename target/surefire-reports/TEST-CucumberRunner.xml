@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="37" failures="0" name="CucumberRunner" time="86.141" errors="8" skipped="25">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Hari_Selenium\PrepaymentChargeCalculator"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\Hari_Selenium\PrepaymentChargeCalculator"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\hgup22\AppData\Local\Temp\surefirebooter693961554917966021.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\hgup22\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\hgup22\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven3.5/bin;C:\Program Files\Java\jdk1.8.0_73/bin;C:\Program Files\Java\jdk1.8.0_73/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\PostgreSQL\10\bin;C:\Program Files\Git\cmd;C:\apache-maven-3.5.4\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Heroku\bin;C:\Users\hgup22\AppData\Local\Box\Box Edit\;C:\Users\hgup22\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="surefire.test.class.path" value="D:\Hari_Selenium\PrepaymentChargeCalculator\target\test-classes;D:\Hari_Selenium\PrepaymentChargeCalculator\target\classes;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\hgup22\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-java\3.5.3\selenium-java-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-api\3.5.3\selenium-api-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.5.3\selenium-edge-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.5.3\selenium-firefox-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.5.3\selenium-ie-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.5.3\selenium-opera-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.5.3\selenium-remote-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.5.3\selenium-safari-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-support\3.5.3\selenium-support-3.5.3.jar;C:\Users\hgup22\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\hgup22\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hgup22\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\hgup22\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hgup22\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\hgup22\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hgup22\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\hgup22\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.23\cssparser-0.9.23.jar;C:\Users\hgup22\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hgup22\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\hgup22\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hgup22\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\hgup22\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hgup22\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hgup22\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\hgup22\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.27\htmlunit-2.27.jar;C:\Users\hgup22\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.27\htmlunit-core-js-2.27.jar;C:\Users\hgup22\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.27\neko-htmlunit-2.27.jar;C:\Users\hgup22\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hgup22\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hgup22\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\jetty-client\9.4.5.v20170502\jetty-client-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\jetty-http\9.4.5.v20170502\jetty-http-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\jetty-io\9.4.5.v20170502\jetty-io-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\jetty-util\9.4.5.v20170502\jetty-util-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\hgup22\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\hgup22\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\hgup22\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.27\htmlunit-driver-2.27.jar;C:\Users\hgup22\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.5.v20170502\websocket-api-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.5.v20170502\websocket-client-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.5.v20170502\websocket-common-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\hgup22\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\hgup22\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\hgup22\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\hgup22\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\hgup22\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.1\cucumber-extentsreport-3.0.1.jar;C:\Users\hgup22\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hgup22\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hgup22\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hgup22\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hgup22\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hgup22\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hgup22\.m2\repository\org\postgresql\postgresql\42.1.1\postgresql-42.1.1.jar;C:\Users\hgup22\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\hgup22\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\hgup22\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\hgup22\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\hgup22\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hgup22\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\hgup22"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="hargupta0"/>
+    <property name="java.class.path" value="D:\Hari_Selenium\PrepaymentChargeCalculator\target\test-classes;D:\Hari_Selenium\PrepaymentChargeCalculator\target\classes;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\hgup22\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-java\3.5.3\selenium-java-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-api\3.5.3\selenium-api-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.5.3\selenium-edge-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.5.3\selenium-firefox-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.5.3\selenium-ie-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.5.3\selenium-opera-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.5.3\selenium-remote-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.5.3\selenium-safari-driver-3.5.3.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-support\3.5.3\selenium-support-3.5.3.jar;C:\Users\hgup22\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\hgup22\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\hgup22\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\hgup22\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\hgup22\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\hgup22\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\hgup22\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\hgup22\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.23\cssparser-0.9.23.jar;C:\Users\hgup22\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\hgup22\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\hgup22\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\hgup22\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\hgup22\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\hgup22\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\hgup22\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\hgup22\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.27\htmlunit-2.27.jar;C:\Users\hgup22\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.27\htmlunit-core-js-2.27.jar;C:\Users\hgup22\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.27\neko-htmlunit-2.27.jar;C:\Users\hgup22\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\hgup22\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\hgup22\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\jetty-client\9.4.5.v20170502\jetty-client-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\jetty-http\9.4.5.v20170502\jetty-http-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\jetty-io\9.4.5.v20170502\jetty-io-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\jetty-util\9.4.5.v20170502\jetty-util-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\hgup22\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\hgup22\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\hgup22\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.27\htmlunit-driver-2.27.jar;C:\Users\hgup22\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.5.v20170502\websocket-api-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.5.v20170502\websocket-client-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.5.v20170502\websocket-common-9.4.5.v20170502.jar;C:\Users\hgup22\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\hgup22\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\hgup22\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\hgup22\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\hgup22\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\hgup22\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.8.1\selenium-chrome-driver-3.8.1.jar;C:\Users\hgup22\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\hgup22\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.0.1\cucumber-extentsreport-3.0.1.jar;C:\Users\hgup22\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\hgup22\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\hgup22\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\hgup22\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\hgup22\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\hgup22\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\hgup22\.m2\repository\org\postgresql\postgresql\42.1.1\postgresql-42.1.1.jar;C:\Users\hgup22\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\hgup22\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\hgup22\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\hgup22\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\hgup22\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\hgup22\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="C:\Users\hgup22\AppData\Local\Temp\surefirebooter693961554917966021.jar C:\Users\hgup22\AppData\Local\Temp\surefire6111696009984028053tmp C:\Users\hgup22\AppData\Local\Temp\surefire7372764668950784987tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
+    <property name="webdriver.chrome.driver" value="chromedriver.exe"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\hgup22\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="Given User have Application url to launch" time="0.001"/>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="When User enters Outstanding Balance as &quot;450000&quot;" time="0.002">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51356}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir11648_27829}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d0c0fabb48d1aa095a39fc7af16ef8d
+*** Element info: {Using=name, value=txtOutstandingBal}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51356}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir11648_27829}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d0c0fabb48d1aa095a39fc7af16ef8d
+*** Element info: {Using=name, value=txtOutstandingBal}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at featuresSteps.Steps.user_enters_Outstanding_Balance_as(Steps.java:32)
+	at ✽.When User enters Outstanding Balance as &quot;450000&quot;(PrepaymentChargeCalculator.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" time="0.002">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51356}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir11648_27829}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d0c0fabb48d1aa095a39fc7af16ef8d
+*** Element info: {Using=name, value=txtOutstandingBal}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51356}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir11648_27829}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d0c0fabb48d1aa095a39fc7af16ef8d
+*** Element info: {Using=name, value=txtOutstandingBal}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at featuresSteps.Steps.user_enters_Outstanding_Balance_as(Steps.java:32)
+	at ✽.When User enters Outstanding Balance as &quot;450000&quot;(PrepaymentChargeCalculator.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="And Remaining term as &quot;10&quot; years &quot;5&quot; months" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="And Payment frequency as &quot;Bi-Weekly&quot;" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="And Payment amount as &quot;6500&quot;" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="And Current Interest Rate as &quot;&quot;" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="And click on Calculate Button" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 |  | Must be a value between 0 and 40% |" name="Then &quot;Must be a value between 0 and 40%&quot; is displayed" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="Given User have Application url to launch" time="0"/>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="When User enters Outstanding Balance as &quot;550000&quot;" time="0.001">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51440}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir12368_13892}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cf9de533313c93fca6561df0bfa7704
+*** Element info: {Using=name, value=txtOutstandingBal}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51440}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir12368_13892}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cf9de533313c93fca6561df0bfa7704
+*** Element info: {Using=name, value=txtOutstandingBal}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at featuresSteps.Steps.user_enters_Outstanding_Balance_as(Steps.java:32)
+	at ✽.When User enters Outstanding Balance as &quot;550000&quot;(PrepaymentChargeCalculator.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" time="0.003">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51440}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir12368_13892}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cf9de533313c93fca6561df0bfa7704
+*** Element info: {Using=name, value=txtOutstandingBal}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51440}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir12368_13892}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 0cf9de533313c93fca6561df0bfa7704
+*** Element info: {Using=name, value=txtOutstandingBal}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at featuresSteps.Steps.user_enters_Outstanding_Balance_as(Steps.java:32)
+	at ✽.When User enters Outstanding Balance as &quot;550000&quot;(PrepaymentChargeCalculator.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And Remaining term as &quot;7&quot; years &quot;5&quot; months" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And Payment frequency as &quot;Weekly&quot;" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And Payment amount as &quot;5500&quot;" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And Current Interest Rate as &quot;&quot;" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And click on Calculate Button" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 550000 | 7 | 5 | Weekly | 5500 |  | Must be a value between 0 and 40% |" name="Then &quot;Must be a value between 0 and 40%&quot; is displayed" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="Given User have Application url to launch" time="0"/>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="When User enters Outstanding Balance as &quot;650000&quot;" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51518}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir11840_850}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b723c58305ec216042553314108cf4d
+*** Element info: {Using=name, value=txtOutstandingBal}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51518}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir11840_850}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b723c58305ec216042553314108cf4d
+*** Element info: {Using=name, value=txtOutstandingBal}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at featuresSteps.Steps.user_enters_Outstanding_Balance_as(Steps.java:32)
+	at ✽.When User enters Outstanding Balance as &quot;650000&quot;(PrepaymentChargeCalculator.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51518}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir11840_850}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b723c58305ec216042553314108cf4d
+*** Element info: {Using=name, value=txtOutstandingBal}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51518}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir11840_850}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5b723c58305ec216042553314108cf4d
+*** Element info: {Using=name, value=txtOutstandingBal}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at featuresSteps.Steps.user_enters_Outstanding_Balance_as(Steps.java:32)
+	at ✽.When User enters Outstanding Balance as &quot;650000&quot;(PrepaymentChargeCalculator.feature:5)
+</error>
+  </testcase>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And Remaining term as &quot;9&quot; years &quot;7&quot; months" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And Payment frequency as &quot;Bi-Weekly&quot;" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And Payment amount as &quot;5500&quot;" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And Current Interest Rate as &quot;&quot;" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="And click on Calculate Button" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 650000 | 9 | 7 | Bi-Weekly | 5500 |  | Must be a value between 0 and 40% |" name="Then &quot;Must be a value between 0 and 40%&quot; is displayed" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="Given User have Application url to launch" time="0"/>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="When User enters Outstanding Balance as &quot;450000&quot;" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51613}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir12924_22529}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2f3001ac9bdcaaf027853f15f14122ab
+*** Element info: {Using=name, value=txtOutstandingBal}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51613}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir12924_22529}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2f3001ac9bdcaaf027853f15f14122ab
+*** Element info: {Using=name, value=txtOutstandingBal}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at featuresSteps.Steps.user_enters_Outstanding_Balance_as(Steps.java:32)
+	at ✽.When User enters Outstanding Balance as &quot;450000&quot;(PrepaymentChargeCalculator.feature:21)
+</error>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" time="0">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51613}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir12924_22529}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2f3001ac9bdcaaf027853f15f14122ab
+*** Element info: {Using=name, value=txtOutstandingBal}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;txtOutstandingBal&quot;}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;WKWIN5337880&apos;, ip: &apos;10.0.0.4&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51613}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e), userDataDir=C:\Users\hgup22\AppData\Local\Temp\scoped_dir12924_22529}, takesHeapSnapshot=true, unhandledPromptBehavior=, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, version=73.0.3683.86, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 2f3001ac9bdcaaf027853f15f14122ab
+*** Element info: {Using=name, value=txtOutstandingBal}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:494)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at featuresSteps.Steps.user_enters_Outstanding_Balance_as(Steps.java:32)
+	at ✽.When User enters Outstanding Balance as &quot;450000&quot;(PrepaymentChargeCalculator.feature:21)
+</error>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="And Remaining term as &quot;10&quot; years &quot;5&quot; months" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="And Payment frequency as &quot;Bi-Weekly&quot;" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="And Payment amount as &quot;6500&quot;" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="And Current Interest Rate as &quot;6.45&quot;" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="And click on Calculate Button" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="Then 3 Month Penalty is &quot;7256.25&quot; displayed" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="| 450000 | 10 | 5 | Bi-Weekly | 6500 | 6.45 | 7256.25 | 302343.75 |" name="And Interest Rate Differential is &quot;302343.75&quot; displayed" time="0.008">
+    <skipped/>
+  </testcase>
+</testsuite>
