@@ -27,3 +27,4 @@ Feature: Title of your feature
     And Enter password
     And I click on login button
     Then Home page is displayed
+    And Company logo is displayed
